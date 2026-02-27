@@ -17,17 +17,13 @@ function getUserChoice() {
 
 function performCalc(firstNumber, secondNumber, userChoice) {
     if (userChoice == "add") {
-        finalNumber = firstNumber + secondNumber;
-        return finalNumber;
+        return firstNumber + secondNumber;
     } else if (userChoice == "subtract") {
-        finalNumber = firstNumber - secondNumber;
-        return finalNumber;
+        return firstNumber - secondNumber;
     } else if (userChoice == "multiply") {
-        finalNumber = firstNumber * secondNumber;
-        return finalNumber
+        return firstNumber * secondNumber;
     } else if (userChoice == "divide") {
-        finalNumber = firstNumber / secondNumber;
-        return finalNumber;
+        return firstNumber / secondNumber;
     }
 }
 
